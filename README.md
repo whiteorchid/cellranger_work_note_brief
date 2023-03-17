@@ -25,4 +25,7 @@ cellranger  count --id k82_t1 \
  The results files include the DEGs for each cell cluster in text format and a summary html file. 
  
  
+ *** To be noted, the download fastq file should change the name convention as >k82_t1_S1_L001_R1_001.fastq, id + **_S1_L001_R1_001.fastq**
+ 
+ 
  
