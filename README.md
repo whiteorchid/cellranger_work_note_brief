@@ -9,3 +9,20 @@ Tool:
 Cellranger 
 
 
+Step:
+1) Install the cellranger software and download the reference genome files from the 10X genomics website. 
+
+2) Run the cellranger count command 
+
+cellranger  count --id k82_t1 \
+ --fastqs=/work/guo/test/keratinocyte \
+ --sample=k82_t1 \
+ --transcriptome=/refdata-gex-GRCh38-2020-A
+ 
+ 
+ The Use 150G total RAM and 6 cpu per task, the run time is near 4h. 
+ 
+ The results files include the DEGs for each cell cluster in text format and a summary html file. 
+ 
+ 
+ 
